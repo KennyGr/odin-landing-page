@@ -125,7 +125,48 @@ body {
 }
 
 .calltoaction {
-    background-color: #3882f6
+    margin: 125px 150px;
+    padding: 30px;
+    display: flex;
+    background-color: #3882f6;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 12px;
+}
+
+.call-left {
+    color: white;
+    margin: 0px;
+}
+
+.call {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.subcall {
+    margin-top: 0px;
+    font-weight: 100;
+}
+
+.button-2 {
+    background-color: #3882f6;
+    width: 125px;
+    height: 40px;
+    border-radius: 12px;
+    border: 2px solid #FFFF;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 10px;
+    text-align: center;
+    font-size:small;
+    font-weight: 200;
 }
 
 ul{
