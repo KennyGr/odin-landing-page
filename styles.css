@@ -1,8 +1,146 @@
 body {
-    
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+.topsect {
+    background-color: #1F2937;
 }
 
 .header {
-    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    color: #F9FAF8;
+    align-items: flex-start;
+}
 
+.logo {
+    font-size: 24px;
+}
+
+.hero {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px;
+    padding-bottom: 150px;
+}
+
+.heroimg {
+    display:flex;
+    flex-shrink: 0;
+    height: 250px;
+    width:520px;
+}
+
+.hero-left {
+    display: flex;
+    flex-shrink: 0;
+    max-width: 450px;
+    min-width: 300px;
+    flex-direction: column;
+}
+
+.heroheader {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder
+    margin-block-start: 0em;
+    margin-block-end: -15px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.herosub {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 12px;
+}
+
+.button {
+    background-color: #3882f6;
+    width: 125px;
+    height: 40px;
+    border-radius: 12px;
+    border: none;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.stacks {
+    display: flex;
+
+}
+
+.stackimgtxt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
+    margin: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: #1F2937;
+    font-weight: 200;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 300px;
+    background-color: #e5e7eb
+}
+
+.quotetext {
+    display: flex;
+    min-width: 400px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    margin-bottom: 0px;
+}
+
+.quoter {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 50px;
+    margin-top: 0px;
+}
+
+.calltoaction {
+    background-color: #3882f6
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
